@@ -4,6 +4,7 @@ console.log("js/firebase.js : Remember to replace the instructor's firebase keys
 var firebaseConfig = {
     apiKey: "AIzaSyDRDSyRzFUnMcIWzIGLCe9VCJgP6JnG-AQ",
     authDomain: "cssi-day-12-3dd60.firebaseapp.com",
+    databaseURL: "https://cssi-day-12-3dd60-default-rtdb.firebaseio.com",
     projectId: "cssi-day-12-3dd60",
     storageBucket: "cssi-day-12-3dd60.appspot.com",
     messagingSenderId: "183257526147",
