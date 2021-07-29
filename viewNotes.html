@@ -18,6 +18,12 @@
       href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css"
     />
     <link rel="stylesheet" href="css/cards.css" />
+     <!-- The core Firebase JS SDK is always required and must be listed first -->
+   <script defer src="/__/firebase/8.3.1/firebase-app.js"></script>
+   <!-- include only the Firebase features as you need -->
+   <script defer src="/__/firebase/8.3.1/firebase-database.js"></script>
+   <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+
   </head>
   <body>
     <nav class="navbar" role="navigation" aria-label="main navigation">
@@ -58,13 +64,6 @@
       </div>
     </div>
 
-    
-
-    <!-- Includes firebase core and all secondary SDKs. No need for other firebase CDN scripts. -->
-    <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase.js"></script>
-
-    <!--   Authenticates firebase client with your firebase instance -->
-    <script src="js/firebase.js"></script>
 
     <!--  INCLUDE ALL APPLICATION SCRIPTS HERE-->
     <script src="js/viewNotes.js"></script>
