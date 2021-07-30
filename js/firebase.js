@@ -1,4 +1,4 @@
-console.log("js/firebase.js : Remember to replace the instructor's firebase keys with yours!")
+/*console.log("js/firebase.js : Remember to replace the instructor's firebase keys with yours!")
 
 // TODO: Replace the following with your app's Firebase project configuration
 var firebaseConfig = {
@@ -14,3 +14,4 @@ var firebaseConfig = {
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
+*/
